@@ -23,3 +23,36 @@ and to your numbers and guitars examples in app.js.\n`
 to the output of your amps in the console.`
     ));
 }
+
+export const answer = () => {
+    console.log(chalk.green.bold(
+        `\nHere is an example of how you can create and print the "amps" array:\n`
+    ));
+
+    console.log(
+        chalk.white.bold('let ') +
+        chalk.blue.bold('amps') +
+        chalk.white.bold(' = [') +
+        chalk.yellow.bold("'Marshall'") +
+        chalk.white.bold(', ') +
+        chalk.yellow.bold("'Fender'") +
+        chalk.white.bold(', ') +
+        chalk.yellow.bold("'Vox'") +
+        chalk.white.bold('];\n')
+    );
+
+    console.log(
+        chalk.blue.bold('amps') +
+        chalk.magenta.bold('.map(') +
+        chalk.cyan.bold('function') +
+        chalk.white.bold(' (a) {\n    ') +
+        chalk.cyan.bold('console') +
+        chalk.white.bold('.') +
+        chalk.cyan.bold('log') +
+        chalk.white.bold('(') +
+        chalk.cyan.bold('chalk.cyan(a)') +
+        chalk.white.bold(');\n') +
+        chalk.white.bold('}\n') +
+        chalk.magenta.bold(');\n')
+    );
+}
