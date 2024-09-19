@@ -15,7 +15,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/jsarraymethods.git
+    git clone https://github.com/SteveSimms/JsLearner.git
     ```
 
 2. Navigate to the project directory:
